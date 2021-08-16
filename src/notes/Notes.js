@@ -49,7 +49,7 @@ const Notes = () => {
   return (
     <div>
       <div>
-        <p>Add new note</p>
+        <h1>Add new note</h1>
         <input type="text" value={note} onChange={handleChange}></input> <button onClick={handleAdd} className="namukka" >add</button>
         <p>{note}</p>
       </div>

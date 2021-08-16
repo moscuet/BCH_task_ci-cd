@@ -46,6 +46,10 @@ ol li {
   border-style: dotted;
 }
 
+h1 {
+  color: aquamarine;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
