@@ -1,7 +1,14 @@
 
 
+## Task on CI/CD
+Fall semester Business College Helsinki
 
 
+#### tasks: 
+
+1. Create a nodejs all (any simple app) → KISS ( keep it simple and stupid)
+2. Create CI/CD pipeline in github
+3. Deploy the application using AWS Elastic Beanstack and use AWS Codepipeline 
 
 
 # Getting Started with Create React App
