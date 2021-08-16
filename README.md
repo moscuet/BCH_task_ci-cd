@@ -11,6 +11,8 @@ Fall semester Business College Helsinki
 3. Deploy the application using AWS Elastic Beanstack and use AWS Codepipeline 
 
 
+#### material: https://www.youtube.com/watch?v=NwzJCSPSPZs&t=318s
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
