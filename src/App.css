@@ -1,11 +1,10 @@
-
 .inactive-text {
   text-decoration: line-through;
 }
-ol li p{
- display: inline;
- margin-right: 10px;
- margin-bottom: 40px;
+ol li p {
+  display: inline;
+  margin-right: 10px;
+  margin-bottom: 40px;
 }
 
 ol li {
@@ -40,6 +39,15 @@ ol li {
 
 .App-link {
   color: #61dafb;
+}
+
+.namukka {
+  background-color: aquamarine;
+  border-style: dotted;
+}
+
+h1 {
+  color: aquamarine;
 }
 
 @keyframes App-logo-spin {
