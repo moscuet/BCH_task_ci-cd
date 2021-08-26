@@ -30,13 +30,13 @@ const Notes = () => {
     setNotes(modifiedNotes)
   }
 
-  const handleDel = (id) => {
+  /* const handleDel = (id) => {
     const modifiedNotes = []
     notes.forEach(note => {
       if (note.id !== id) modifiedNotes.push({ text: note.text, active: note.active, id: modifiedNotes.length + 1 })
     })
     setNotes([...modifiedNotes])
-  }
+  } */
 
 
   let lists = notes.map((note) => (
