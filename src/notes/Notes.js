@@ -42,7 +42,7 @@ const Notes = () => {
   let lists = notes.map((note) => (
     <li key={note.id} >
       <p onClick={() => toggleActive(note.id)} className={note.active ? '' : 'inactive-text'} >{note.text}</p>
-      <button onClick={() => handleDel(note.id)}>delet</button>
+      <button onClick={() => handleDel(note.id)}>delete</button>
     </li>
 
   ))
