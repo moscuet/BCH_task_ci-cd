@@ -42,7 +42,7 @@ const Notes = () => {
   let lists = notes.map((note) => (
     <li key={note.id} >
       <p onClick={() => toggleActive(note.id)} className={note.active ? '' : 'inactive-text'} >{note.text}</p>
-      <button onClick={() => handleDel(note.id)}>delete</button>
+      <button onClick={() => handleDel(note.id)}>Delete</button>
     </li>
 
   ))
@@ -50,7 +50,7 @@ const Notes = () => {
     <div>
       <div>
         <h1>Add new note</h1>
-        <input type="text" value={note} onChange={handleChange}></input> <button onClick={handleAdd} className="namukka" >add</button>
+        <input type="text" value={note} onChange={handleChange}></input> <button onClick={handleAdd} className="namukka" >Add</button>
         <p>{note}</p>
       </div>
       <p> {notes.length > 0 && taskDone === notes.length ? 'wow! mission accomplished' : `Total task:${notes.length}, completed task ${taskDone}`}</p>
