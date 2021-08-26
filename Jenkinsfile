@@ -4,7 +4,6 @@ agent any
 stage("build") {
 steps {
 echo 'building our app...'
- npm run build
 }
 }
  stage("test") {
