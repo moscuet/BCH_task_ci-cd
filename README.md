@@ -1,6 +1,6 @@
 # Group Task on CI/CD
 ## Task on CI/CD
-Fall semester Business College Helsinki
+Fall semester Business College Helsinki CI/CD group task
 
 
 #### tasks: 
